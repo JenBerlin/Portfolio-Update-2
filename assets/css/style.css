@@ -180,6 +180,7 @@ section {
 
 .icon {
   height: 100%;
+  color: blue;
 }
 
 .row-image-1 {
@@ -263,11 +264,8 @@ section {
   margin: 0 5px;
 }
 
-.Disclaimer {
-  color: red;
-  font-weight: bolder;
-  font-size: larger;
-  margin-left: 0.5cm;
+.footer ul {
+  color: blue;
 }
 
 @media screen and (max-width: 999px) {
@@ -296,6 +294,7 @@ section {
 
   .footer ul {
     display: flex;
+    color: blue;
   }
 
   .Disclaimer {
