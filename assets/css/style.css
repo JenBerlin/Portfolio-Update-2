@@ -112,6 +112,14 @@ a {
   flex-shrink: 1;
 }
 
+.cv {
+  color: blue;
+}
+
+.full-height {
+  height: 100% !important;
+}
+
 section {
   display: inline;
 }
