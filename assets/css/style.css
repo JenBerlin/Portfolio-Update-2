@@ -1,0 +1,297 @@
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Poiret+One&family=Raleway:wght@100;200&family=Work+Sans:wght@100&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  line-height: 1;
+  font-family: "Raleway";
+  background-color: white;
+  line-height: 1.7;
+}
+
+input,
+select,
+option,
+optgroup,
+textarea,
+button,
+pre,
+code {
+  font-size: 100%;
+  font-family: inherit;
+}
+
+h1 {
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0.5cm;
+}
+
+header .H1 {
+  font-size: 40px;
+  color: black;
+}
+
+.H1 {
+  font-size: 40px;
+}
+
+.navbar {
+  color: #a6a2a2;
+  height: 100px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+  display: line;
+  line-height: 2;
+}
+
+.flex {
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar a {
+  color: #a6a2a2;
+  padding: 2px;
+  margin: 0 5px;
+}
+
+.nolist {
+  display: inline;
+}
+
+.navbar a:hover {
+  border-bottom: 1px #a6a2a2 solid;
+}
+
+a {
+  color: #a6a2a2;
+  text-decoration: none;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  margin-top: 1.5cm;
+  margin-bottom: 1cm;
+}
+
+.column-avatar-about {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 2;
+  margin-block-end: 1cm;
+}
+
+.Avatar {
+  display: relative;
+  flex-basis: 10%;
+  height: auto;
+  flex-shrink: 0;
+  size: 10%;
+}
+
+.container-box-1-column {
+  flex-basis: 90%;
+  flex-shrink: 1;
+}
+
+section {
+  display: inline;
+}
+
+.header-box-1 {
+  margin-block-start: 0.5cm;
+  margin-block-end: 0.5cm;
+  color: black;
+  font-size: 200%;
+}
+
+.text-box-1 {
+  font-size: 120%;
+}
+
+.header-box-2 {
+  margin-block-start: 0.5cm;
+  margin-block-end: 0.5cm;
+  color: black;
+  font-size: 200%;
+  margin-left: 0.5cm;
+}
+
+.image-1 {
+  position: relative;
+  opacity: 0.4;
+  width: 100%;
+  height: auto;
+  margin-left: 0.5cm;
+  border-radius: 1%;
+  border: #6c757d;
+  border-style: solid;
+  border-width: thin;
+}
+
+.image-1:hover {
+  opacity: 0.8;
+}
+
+.text-box-image-big {
+  position: relative;
+  bottom: 170px;
+  margin-left: 0.5cm;
+  background-color: #f4f3ee;
+  color: black;
+  border-radius: 1%;
+}
+
+.header-image-big {
+  margin-left: 0.5cm;
+  font-size: 250%;
+}
+
+.subline-image-big {
+  margin-left: 0.5cm;
+  font-size: 180%;
+}
+
+.icon {
+  height: 100%;
+}
+
+.row-image-1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: 0.5cm;
+}
+
+.column-image-1 {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 2;
+  margin-right: 0.5cm;
+}
+
+.row-image-2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: 0.5cm;
+}
+
+.column-image-2 {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 2;
+  margin-right: 0.5cm;
+}
+
+.image-small {
+  display: flex;
+  flex-wrap: wrap;
+  opacity: 0.4;
+  border-radius: 1%;
+  max-width: 100%;
+  height: auto;
+  border: #6c757d;
+  border-style: solid;
+  border-width: thin;
+}
+
+.image-small:hover {
+  opacity: 0.8;
+}
+
+.text-box-image-small {
+  position: relative;
+  bottom: 100px;
+  background-color: #f4f3ee;
+  color: black;
+  border-radius: 1%;
+}
+
+.header-image-small {
+  margin-left: 0.5cm;
+  font: bolder;
+  font-size: x-large;
+}
+
+.subline-image-small {
+  margin-left: 0.5cm;
+  font-size: large;
+}
+
+.footer {
+  margin-top: 30px;
+  color: #a6a2a2;
+  height: 100px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer a {
+  padding: 10px;
+  margin: 0 5px;
+}
+
+.Disclaimer {
+  color: red;
+  font-weight: bolder;
+  font-size: larger;
+  margin-left: 0.5cm;
+}
+
+@media screen and (max-width: 999px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .navbar ul {
+    display: flex;
+  }
+  .row {
+    flex-direction: column;
+  }
+
+  .container-box-1-column {
+    padding: 0.5cm;
+  }
+
+  .row-image-1,
+  .row-image-2 {
+    flex-direction: column;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer ul {
+    display: flex;
+  }
+
+  .Disclaimer {
+    margin-top: 50px;
+    text-align: center;
+  }
+}
